@@ -16,3 +16,9 @@ Sample Admin Account: TRCAdmin@gmail.com; Password: 123
 1. Go to `public/admin/Pages/UserManagement.php` (Admin only).
 2. Click the award icon in the Actions column to open the Badge Manager modal.
 3. Create a badge (icon, description, date) and assign it; the modal lists assigned badges.
+
+## PHPMailer Setup for OTP and Mailing Requests
+1. Go to your Google Account Settings and Generate an App Password
+2. Inside Includes > .env
+SMTP_USER=YourEmail@gmail.com
+SMTP_PASS="Your Generated App Password"
